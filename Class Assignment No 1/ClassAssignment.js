@@ -120,3 +120,59 @@ console.log(newText)
 
 console.log("-------")
 
+/* Arrays */
+
+
+    const names = [];
+    names[0]= "Saad";
+    names[1]= "Hammad";
+    names[2]= "Najam";
+    console.log(names);
+
+    console.log("---Using the JavaScript Keyword new----")
+
+    const cars = new Array("Merc", "Toyota", "BMW");
+    console.log(cars)
+    
+    console.log("---Accessing Array Elements----")
+
+    const carss = ["Saab", "Volvo", "BMW"];
+    let car = cars[0];
+    console.log(car)
+
+    console.log("---Changing an Array Element----")
+
+    const namess = ["Saad", "hammad", "najam"];
+    namess[0] = "Cr7";
+    console.log(namess)
+
+    console.log("---Converting an Array to a String----")
+
+    const Uni = ["comsats", "Air", "Arid", "Iqra"];
+    console.log(Uni.toString());;
+
+    console.log("---Checking Length ----")
+
+    const fruits = ["Banana", "Orange", "Apple"];
+    fruits[fruits.length] = "Lemon";  
+    console.log(fruits)
+
+    console.log("---Pushing element ----")
+
+    const fruits = ["Banana", "Orange", "Apple"];
+    fruits.push("Lemon"); 
+    console.log(fruits)
+
+    console.log("---Associative Arrays----")
+
+    const person = [];
+    person[0] = "Saad";
+    person[1] = "Uz Zaman Gohar";
+    person[2] = 23;
+    person.length;    
+    person[0];
+
+    
+    
+
+
